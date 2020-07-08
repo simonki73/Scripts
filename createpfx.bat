@@ -1,0 +1,1 @@
+openssl pkcs12 -export -out C:\certs\domainname.co.uk.pfx -inkey private.key -in certificate.crt -certfile ca_bundle.crt -pass pass:secretpassword
